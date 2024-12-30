@@ -1,7 +1,7 @@
 {
     "course/2024_T4": {
         "cert_html_view_enabled": true,
-        "course_image": "2000887.png",
+        "course_image": "capa.png",
         "discussion_topics": {
             "Geral": {
                 "id": "course"
@@ -13,7 +13,7 @@
             "provider_type": "openedx",
             "unit_level_visibility": true
         },
-        "display_name": "ModelagemdeSoftware",
+        "display_name": "ContabilidadeBasicaGestaoFinanceira",
         "enable_timed_exams": true,
         "minimum_grade_credit": 0.8,
         "language": "pt",
@@ -22,7 +22,7 @@
                 "chapters": [
                     {
                         "title": "Capitulo1",
-                        "url": "/static/Modelagem_de_Software_livro_estudante.pdf"
+                        "url": "/static/EPT(MA)_Contabilidade_Basica_Gestao_Financeira_LA_2024.pdf"
                     }
                 ],
                 "id": "3PDF_TEXTO_LIVRO",

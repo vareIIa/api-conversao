@@ -1,9 +1,0 @@
-<problem display_name="Vamos exercitar" markdown="texto_exercicio">
-        <stringresponse answer="ola" type="ci">
-            <p>Descreva os principais papéis no Scrum e a função de cada um no ciclo de desenvolvimento. Orientação: Revise os papéis do Product Owner, Scrum Master e Equipe de Desenvolvimento. Explique como cada um contribui para o andamento do sprint, focando as responsabilidades específicas de cada papel.</p>
-            <label>Insira sua resposta aqui</label>
-            <description>resposta:</description>
-            <additional_answer answer="Ola"/>
-            <textline size="20"/>
-        </stringresponse>
-    </problem>

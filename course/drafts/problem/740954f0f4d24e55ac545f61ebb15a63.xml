@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Assinale a segunda coluna de acordo com a primeiro coluna: (1)Ativos (2)Passivos (  ) Duplicatas a receber (  ) Salários a pagar (  ) Estoque de mercadorias (  ) Veículos (  ) Imóvel (  ) Impostos a pagar (  ) Móveis e utensílios (  ) Duplicatas a pagar (  ) Caixa (dinheiro)</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

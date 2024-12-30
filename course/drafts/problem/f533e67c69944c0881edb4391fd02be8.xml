@@ -1,9 +1,0 @@
-<problem display_name="Vamos exercitar" markdown="texto_exercicio">
-        <stringresponse answer="ola" type="ci">
-            <p>Explique a importância de documentar os diagramas de classes no desenvolvimento de um sistema de software. Orientação: Releia a seção sobre diagrama de classes e sua função na documentação. Explique como a documentação de diagramas de classes ajuda a registrar a estrutura do sistema, a definir os relacionamentos entre os componentes e a facilitar a compreensão da equipe sobre a organização interna do software. Isso também é útil para manutenção e futuras expansões.</p>
-            <label>Insira sua resposta aqui</label>
-            <description>resposta:</description>
-            <additional_answer answer="Ola"/>
-            <textline size="20"/>
-        </stringresponse>
-    </problem>

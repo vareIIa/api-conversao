@@ -1,9 +1,0 @@
-<problem display_name="Vamos exercitar" markdown="texto_exercicio">
-        <stringresponse answer="ola" type="ci">
-            <p>Explique como o quadro Kanban pode ajudar a equipe a gerenciar o fluxo de trabalho e melhorar a produtividade. Orientação: Consulte a seção sobre Kanban e entenda como o quadro organiza tarefas e o limite de WIP ajuda a evitar sobrecarga. Descreva como isso mantém o fluxo de trabalho equilibrado.</p>
-            <label>Insira sua resposta aqui</label>
-            <description>resposta:</description>
-            <additional_answer answer="Ola"/>
-            <textline size="20"/>
-        </stringresponse>
-    </problem>

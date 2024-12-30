@@ -1,9 +1,0 @@
-<problem display_name="Vamos exercitar" markdown="texto_exercicio">
-        <stringresponse answer="ola" type="ci">
-            <p>Por que a modelagem de software é importante no desenvolvimento de sistemas complexos?</p>
-            <label>Insira sua resposta aqui</label>
-            <description>resposta:</description>
-            <additional_answer answer="Ola"/>
-            <textline size="20"/>
-        </stringresponse>
-    </problem>

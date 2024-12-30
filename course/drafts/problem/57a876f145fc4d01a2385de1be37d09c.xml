@@ -1,9 +1,0 @@
-<problem display_name="Vamos exercitar" markdown="texto_exercicio">
-        <stringresponse answer="ola" type="ci">
-            <p>Explique a função de um diagrama de classes e como ele é útil no processo de modelagem de software.</p>
-            <label>Insira sua resposta aqui</label>
-            <description>resposta:</description>
-            <additional_answer answer="Ola"/>
-            <textline size="20"/>
-        </stringresponse>
-    </problem>

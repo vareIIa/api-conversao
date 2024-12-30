@@ -1,9 +1,0 @@
-<problem display_name="Vamos exercitar" markdown="texto_exercicio">
-        <stringresponse answer="ola" type="ci">
-            <p>Quais são os principais benefícios de utilizar diagramas UML para modelar um sistema de reserva de consultas médicas? Orientação: Releia o conteúdo sobre diagramas UML e considere como eles facilitam a compreensão do sistema. Explique como diagramas, como os de casos de uso e classes, ajudam a visualizar a estrutura e as funcionalidades do sistema, promovendo uma comunicação mais clara entre a equipe e os stakeholders e facilitando futuras manutenções.</p>
-            <label>Insira sua resposta aqui</label>
-            <description>resposta:</description>
-            <additional_answer answer="Ola"/>
-            <textline size="20"/>
-        </stringresponse>
-    </problem>

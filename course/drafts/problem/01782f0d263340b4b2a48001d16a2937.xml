@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Analise a situação apresentada abaixo: Situação: o Supermercado Preço Bão, tem uma freguesia mais antiga, e ele ainda faz notinhas de vendas a prazo, ou seja, ele tem contas a receber. As notinhas dele estão uma bagunça e precisam ser organizadas. Considere que você está trabalhando no departamento financeiro deste supermercado, e por isso irá ajudá–lo nesta tarefa! Abaixo está a listagem das vendas a prazo: 1. Cliente A – R$ 500,00 – vencimento: 15/nov/2024 2. Cliente B – R$ 300,00 – vencimento: 05/nov/2024 3. Cliente C – R$ 800,00 – vencimento: 20/nov/2024 4. Cliente D – R$ 200,00 – vencimento: 25/dez/2024 5. Cliente E – R$ 600,00 – vencimento: 01/out/2024 6. Cliente F – R$ 400,00 – vencimento: 10/dez/2024 7. Cliente G – R$ 1 000,00 – vencimento: 15/set/2024 8. Cliente H – R$ 700,00 – vencimento: 20/nov/2024 9. Cliente I – R$ 350,00 – vencimento: 02/nov/2024 10. Cliente J – R$ 900,00 – vencimento: 15/jan/2025 Organize as contas a receber, separando por categorias de curto prazo, médio prazo e as atrasadas. Considere que você está fazendo esta análise em 01/nov/2024. Curto prazo: vencimento até 30 dias a partir de 01/nov/2024. Médio prazo**: vencimento entre 30 e 90 dias a partir de 01/nov/2024. Atrasadas: vencimentos antes de 01/nov/2024. Contas a receber: médio Prazo – (vencimento entre 30 e 90 dias – 01/dez/2024 a 30/jan/2025) Contas a receber: atrasadas – (vencimentos antes de 01/nov/2024)</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

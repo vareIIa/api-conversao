@@ -723,16 +723,21 @@ def compress_course_folder(base_path):
 
 
 #============geração de sigla identificadora de curso===================
-def generate_random_sigla(length=3):
+def generate_random_sigla(length=5):
     return ''.join(random.choices(string.ascii_uppercase, k=length))
 
 
 gerador_random_sigla = generate_random_sigla()  
-current_year = datetime.now().year 
+current_year = datetime.now().year
 org = "IPGC"  
-random_sigla = "QADDT"
-course_id = org +"+"+ random_sigla +"+"+ str(current_year) + "_" + random_sigla
-course_id_ano = str(current_year) + "_" + random_sigla
+
+# IMPORTANTE PRECISA ALTERAR O RANDOM_SIGLA A CADA POSTAGEM
+random_sigla = "ASFED"
+
+# random_sigla = gerador_random_sigla()
+
+course_id = f"{org}+{random_sigla}+{current_year}_{random_sigla}"
+course_id_ano = f"{current_year}_{random_sigla}"
 # print(course_id) 
 
 #=================nome do curso=======================

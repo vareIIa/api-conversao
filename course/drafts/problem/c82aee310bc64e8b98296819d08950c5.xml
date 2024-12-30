@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Calcule o Patrimônio Líquido: PL = Bens + Direitos (ATIVO) – Obrigações (PASSIVO) PL = PL = Agora faça a análise e marque a opção correta: (  ) Situação Líquida Positiva (  ) Situação Líquida Negativa (  ) Situação Líquida Nula Quanta coisa já aprendemos ainda neste primeiro capítulo! Já avançamos um grande passo no mundo da Contabilidade. Preparados para conhecer mais?</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>
