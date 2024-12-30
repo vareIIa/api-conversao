@@ -25,7 +25,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 # Carrega as variáveis do arquivo .env
 load_dotenv()
 # Acessar a variável de ambiente
-API_URL = os.getenv("API_URL", "https://presence.pontoedu.dev") 
+API_URL = os.getenv("API_URL", "https://presence.ipgc.org.br") 
 
 #=====================Criando JSONS=====================================================
 
@@ -715,8 +715,10 @@ def compress_course_folder(base_path):
         with tarfile.open(tar_file_path, "w:gz") as tar:
             tar.add(base_path, arcname=os.path.basename(base_path))
         print(f"A pasta '{base_path}' foi compactada como '{tar_file_path}'.")
+        if not os.path.exists(tar_file_path):
+            print(f"Erro: Arquivo compactado {tar_file_path} não foi criado.")
     except Exception as e:
-        print(f"Erro ao compactar: {e}")
+        print(f"Erro ao compactar a pasta: {str(e)}")
 
 
 
@@ -728,7 +730,7 @@ def generate_random_sigla(length=3):
 gerador_random_sigla = generate_random_sigla()  
 current_year = datetime.now().year 
 org = "IPGC"  
-random_sigla = "TU" + gerador_random_sigla  
+random_sigla = "QADDT"
 course_id = org +"+"+ random_sigla +"+"+ str(current_year) + "_" + random_sigla
 course_id_ano = str(current_year) + "_" + random_sigla
 # print(course_id) 
@@ -743,8 +745,7 @@ output_folder = "jsons"
 print(f"\n\n\n {nome_curso} \n\n\n")
 
 #==================criaçao de curso via api===========================
-def create_course_api(nome_curso,current_year,org,random_sigla):
-
+def create_course_api(nome_curso, current_year, org, random_sigla):
     payload = {
         "title": f"{nome_curso} - curso criado via API no script com import",
         "org": org,
@@ -760,37 +761,41 @@ def create_course_api(nome_curso,current_year,org,random_sigla):
         "Content-Type": "application/json",
     }
 
-    response = requests.post(
-        url=f"{API_URL}/courses/create",
-        headers= headers,
-        json=payload
-    )
-    if response.status_code == 200:
-        print("Curso criado com sucesso!")
-    else:
-        print(f"Erro ao criar o curso: {response.status_code} - {response.text}")
-
+    try:
+        response = requests.post(url=f"{API_URL}/courses/create", headers=headers, json=payload)
+        print(f"Payload enviado para criação de curso: {json.dumps(payload, indent=4)}")
+        print(f"Response status code: {response.status_code}")
+        print(f"Response text: {response.text}")
+        if response.status_code == 200:
+            print("Curso criado com sucesso!")
+        else:
+            print(f"Erro ao criar o curso: {response.status_code} - {response.text}")
+    except Exception as e:
+        print(f"Erro ao tentar criar o curso via API: {str(e)}")
 
 #=======================importação de curso via api======================
 def import_course_api(course_id):
-    url=f"{API_URL}/courses/import"
-    
-    course_id = f"course-v1:{course_id}"  
-    
-    file_path = "./course/.tar.gz" 
-    
-    data = {"courseId": course_id}
-    files = {"file": open(file_path, "rb")}
-    
-    response = requests.post(url, data=data, files=files)
-    
-    if response.status_code == 200:
-        print("Curso importado com sucesso!")
-        print(response.json()) 
-    else:
-        print(f"Erro ao importar curso: {response.status_code}")
-        print(response.text)
+    url = f"{API_URL}/courses/import"
+    file_path = "./course/.tar.gz"
 
+    if not os.path.exists(file_path):
+        print(f"Arquivo {file_path} não encontrado. Verifique a compressão da pasta do curso.")
+        return
+
+    try:
+        data = {"courseId": f"course-v1:{course_id}"}
+        with open(file_path, "rb") as file:
+            files = {"file": file}
+            response = requests.post(url, data=data, files=files)
+            print(f"Payload enviado para importação: {data}")
+            print(f"Response status code: {response.status_code}")
+            print(f"Response text: {response.text}")
+            if response.status_code == 200:
+                print("Curso importado com sucesso!")
+            else:
+                print(f"Erro ao importar curso: {response.status_code} - {response.text}")
+    except Exception as e:
+        print(f"Erro ao tentar importar o curso via API: {str(e)}")
 
 
 #===================chamando as funcoes principais================
