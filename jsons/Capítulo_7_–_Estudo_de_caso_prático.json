@@ -1,0 +1,152 @@
+[{
+    "secao": "Capítulo 7 – Estudo de caso prático",
+    "subsecao": null,
+    "unidades": [
+        {
+            "unidade": [
+                "CONTEXTUALIZANDO",
+                "Agora é hora de aplicar o que você aprendeu! Neste estudo de caso, você desenvolverá um Sistema de reserva de consultas médicas, integrando modelagem, levantamento de requisitos, criação de diagramas UML e protótipos. Essa prática consolidará seu conhecimento, permitindo que você veja como cada etapa do desenvolvimento de software se conecta em um projeto realista.",
+                "Neste capítulo, você será desafiado(a) a desenvolver um Sistema de reserva de consultas médicas. Desde o levantamento de requisitos até a criação de diagramas UML e protótipos de interface, você passará por todas as etapas do ciclo de desenvolvimento de um sistema real. Esse estudo de caso é a oportunidade ideal para consolidar os conhecimentos adquiridos e aplicar as técnicas de modelagem em um projeto do mundo real.",
+                "Prepare-se para desenhar, documentar e prototipar!",
+                "",
+                "#CURIOSIDADE#",
+                "Sabia que protótipos interativos ajudam a identificar problemas de usabilidade antes mesmo da implementação? Estudos mostram que 85% dos problemas são detectados nessa fase, economizando tempo e recursos durante o desenvolvimento.",
+                "#CURIOSIDADE#",
+                "",
+                "Definição:",
+                "Agora que exploramos todos os conceitos teóricos, as técnicas e ferramentas utilizadas no desenvolvimento de sistemas, é hora de aplicarmos esse conhecimento em um estudo de caso prático. Neste capítulo, você será guiado(a) pelo processo completo de desenvolvimento de um sistema, desde o levantamento de requisitos até a criação de diagramas UML e protótipos de interface.",
+                "Esse estudo de caso ajudará a consolidar os conceitos abordados nos capítulos anteriores, permitindo que você experimente as etapas do ciclo de vida de um software e compreenda como cada parte se integra para formar um sistema funcional."
+            ]
+        },
+        {
+            "unidade": [
+                "CONECTANDO",
+                "Este estudo de caso conecta tudo o que você aprendeu, colocando o conhecimento em prática de forma estruturada e guiada. Através da modelagem com UML, da prototipagem e do uso de metodologias ágeis, você terá a oportunidade de aplicar suas habilidades em um projeto realista.",
+                "Seguiremos um processo prático e iterativo, que inclui:",
+                "Levantamento de requisitos: Identificar os requisitos funcionais e não funcionais do sistema.",
+                "Criação de diagramas UML: Utilizar diagramas UML apropriados para modelar as funcionalidades e a estrutura do sistema.",
+                "Prototipagem: Desenvolver protótipos navegáveis para representar a interface do sistema de maneira realista.",
+                "Documentação: Manter a documentação técnica atualizada, registrando e comunicando todas as decisões de forma eficaz.",
+                "Esse processo permitirá consolidar seus conhecimentos e entender como todas as etapas se integram para criar um sistema funcional."
+            ]
+        },
+        {
+            "unidade": [
+                "APROFUNDANDO",
+                "Estudo de caso: Sistema de reserva de consultas médicas",
+                "Neste estudo de caso, você desenvolverá um Sistema de reserva de consultas médicas, em que pacientes poderão agendar consultas com médicos, visualizar horários disponíveis e receber notificações sobre suas consultas.",
+                "",
+                "Levantamento de requisitos:",
+                "",
+                "Requisitos funcionais:",
+                "O sistema deve permitir que os pacientes façam login com nome de usuário e senha.",
+                "O sistema deve permitir que os pacientes visualizem os médicos disponíveis e seus horários.",
+                "O sistema deve permitir que os pacientes agendem consultas com os médicos.",
+                "O sistema deve enviar lembretes de consulta via e-mail aos pacientes.",
+                "",
+                "Requisitos não funcionais:",
+                "O sistema deve garantir que as consultas agendadas sejam atualizadas em tempo real.",
+                "O sistema deve carregar as páginas em até três segundos.",
+                "O sistema deve garantir segurança nas transações de login e agendamento, utilizando HTTPS.",
+                "",
+                "Criação de diagramas UML:",
+                "",
+                "Diagrama de casos de uso:",
+                "Desenvolva um diagrama que descreva as interações entre os principais atores (pacientes, médicos e administradores) e o sistema. Inclua casos de uso como “agendar consulta”, “visualizar horários” e “gerenciar perfis de médicos”.",
+                "Diagrama de classes:",
+                "Desenvolva um diagrama de classes que descreva as classes principais, como Paciente, Médico, Consulta e Agenda. Defina os atributos e os métodos de cada classe, como nome, CPF e senha para o Paciente e a especialidade para o Médico.",
+                "",
+                "#IMAGEM#",
+                "",
+                "Diagrama de sequência:",
+                "Crie um diagrama de sequência que mostre o fluxo de interação entre o Paciente, o Sistema de Reserva e o Médico no processo de agendamento de consulta. Detalhe a troca de mensagens ao longo do tempo.",
+                "Diagrama de atividades:",
+                "Desenhe um diagrama de atividades que represente o fluxo para o processo de agendamento de consulta, desde a seleção do horário até a confirmação.",
+                "",
+                "",
+                "#IMAGEM#",
+                "",
+                "Prototipagem:",
+                "Utilize uma ferramenta de prototipagem, como Figma ou Adobe XD, para criar um protótipo interativo das principais telas do sistema. Inclua telas de login, visualização de médicos, agendamento de consulta e confirmação de agendamento.",
+                "Passos:",
+                "Tela de login: Crie uma tela que permita ao paciente inserir suas credenciais.",
+                "Tela de agendamento: Mostre uma lista de médicos e horários disponíveis para consulta.",
+                "Tela de confirmação: Após selecionar o horário, mostre uma tela de confirmação da consulta com as informações detalhadas.",
+                "Teste o protótipo: Navegue entre as telas para garantir que a experiência do usuário seja fluida e intuitiva.",
+                "",
+                "Documentação:",
+                "Documente todos os diagramas e protótipos desenvolvidos. Inclua descrições detalhadas sobre cada caso de uso, classes e interações. Registre as decisões tomadas ao longo do desenvolvimento, como as escolhas de atributos nas classes ou os fluxos de interação entre os objetos.",
+                "#SAIBAMAIS#",
+                "Para criar diagramas mais detalhados, explore as extensões disponíveis no Lucidchart e Enterprise Architect. Essas ferramentas permitem adicionar anotações e personalizar os diagramas para atender às necessidades específicas do projeto.",
+                "#SAIBAMAIS#",
+                ""
+            ]
+        },
+        {
+            "unidade": [
+                "PRATICANDO",
+                "Atividade prática 1: Diagrama de casos de uso para o Sistema de reserva de consultas médicas",
+                "Objetivo: Desenvolver um diagrama que represente as interações principais no sistema.",
+                "Identifique atores (ex.: Paciente, Médico) e funcionalidades (ex.: “Agendar consulta”).",
+                "Use ferramentas como Lucidchart ou Draw.io.",
+                "",
+                "Atividade prática 2: Diagrama de classes para o sistema de reserva de consultas médicas",
+                "Objetivo: Criar um protótipo interativo para o agendamento de consultas.",
+                "Modele as telas de login, agendamento e confirmação.",
+                "Use o Figma para simular a navegação entre as telas.",
+                "",
+                "Atividade prática 3: Diagrama de sequência para o processo de agendamento de consulta",
+                "Objetivo: Documentar os diagramas criados para o sistema de reservas.",
+                "Inclua descrições detalhadas de casos de uso, classes, sequências e atividades.",
+                "#ATENCAO#",
+                "Prototipar é apenas o primeiro passo! Certifique-se de testar as interfaces com usuários reais para validar a usabilidade e identificar pontos de melhoria antes de avançar para o desenvolvimento.",
+                "#ATENCAO#",
+                "",
+                "#FIQUELIGADO#",
+                "Muitas ferramentas de prototipagem e modelagem se integram a plataformas de gestão ágil, como Trello e Jira. Use essas integrações para centralizar as informações do projeto e melhorar a comunicação entre a equipe.",
+                "#FIQUELIGADO#"
+            ]
+        },
+        {
+            "unidade": [
+                "SINTETIZANDO",
+                "Esse estudo de caso prático permite que você aplique os conceitos de modelagem de software com UML, levantamento de requisitos, prototipagem e documentação de sistemas. Ao seguir o ciclo completo de desenvolvimento – desde a fase inicial de requisitos até a documentação e prototipagem –, você consolidará seu aprendizado em um projeto realista e tangível.",
+                "O uso de diagramas UML facilita a visualização e a comunicação de como o sistema funcionará, enquanto as ferramentas de prototipagem permitem simular a experiência do usuário e testar a usabilidade do sistema. Esse processo integrado proporciona uma visão completa do desenvolvimento de um sistema e prepara você para aplicar essas habilidades em projetos reais.",
+                ""
+            ]
+        },
+        {
+            "unidade": [
+                "EXERCITANDO",
+                "Questão 1",
+                "Quais são os principais benefícios de utilizar diagramas UML para modelar um sistema de reserva de consultas médicas?",
+                "Orientação: Releia o conteúdo sobre diagramas UML e considere como eles facilitam a compreensão do sistema. Explique como diagramas, como os de casos de uso e classes, ajudam a visualizar a estrutura e as funcionalidades do sistema, promovendo uma comunicação mais clara entre a equipe e os stakeholders e facilitando futuras manutenções.",
+                "",
+                "Questão 2",
+                "Como a prototipagem pode ajudar a identificar problemas de usabilidade antes da implementação de um sistema?",
+                "Orientação: Revise a seção sobre prototipagem e pense em como um protótipo interativo permite testar a navegação e o design do sistema com antecedência. Explique como isso possibilita identificar áreas confusas ou melhorias necessárias para garantir uma experiência de usuário fluida, reduzindo retrabalho e facilitando ajustes antes da implementação final.",
+                "Questão 3",
+                "No estudo de caso do Sistema de Reserva de consultas médicas, você foi orientado(a) a integrar o levantamento de requisitos, a modelagem com UML e a prototipagem para criar um sistema funcional. A fase de levantamento de requisitos é fundamental para identificar o que o sistema deve fazer e como deve se comportar.",
+                "Com base no estudo de caso, assinale a alternativa que melhor descreve um requisito funcional do Sistema de reserva de consultas médicas.",
+                "a) O sistema deve garantir que todas as transações sejam seguras, utilizando o protocolo HTTPS.",
+                "b) O sistema deve carregar as páginas em até três segundos.",
+                "c) O sistema deve permitir que os pacientes agendem consultas com os médicos.",
+                "d) O sistema deve garantir que as consultas agendadas sejam atualizadas em tempo real.",
+                "Gabarito: c"
+            ]
+        },
+        {
+            "unidade": [
+                "RECAPITULANDO",
+                "Neste capítulo, realizamos um estudo de caso prático no qual desenvolvemos um Sistema de reserva de consultas médicas. Ao longo deste capítulo, você:",
+                "Levantou requisitos: Identificou os requisitos funcionais e não funcionais do sistema.",
+                "Criou diagramas UML: Modelou as funcionalidades e a estrutura do sistema usando diagramas UML.",
+                "Desenvolveu protótipos de interface: Representou a experiência do usuário através de protótipos interativos.",
+                "Documentou o processo: Registrou todas as etapas, assegurando que o sistema fosse bem planejado e compreendido por todos os envolvidos.",
+                "Esse estudo de caso proporcionou uma aplicação prática das etapas do desenvolvimento de software, integrando todas as técnicas e as ferramentas estudadas ao longo do curso.",
+                "",
+                "#IMAGEM#"
+            ]
+        }
+    ]
+}]

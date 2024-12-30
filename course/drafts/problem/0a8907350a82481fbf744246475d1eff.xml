@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Crie um diagrama de atividades para um sistema de pedidos de restaurante, mostrando o fluxo desde o pedido até a entrega do produto.</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Compare as funções de Lucidchart e Enterprise Architect no processo de criação e documentação de diagramas UML. Qual seria mais adequada para um projeto complexo e por quê? Orientação: Releia as descrições de Lucidchart e Enterprise Architect. Identifique as principais características de cada ferramenta, considerando a facilidade de uso e a profundidade de funcionalidades. Explique por que o Enterprise Architect é mais indicado para projetos complexos, destacando sua capacidade de integrar diferentes partes do sistema e gerenciar o ciclo de vida do software.</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

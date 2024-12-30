@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Explique por que o levantamento de requisitos é essencial para evitar retrabalho no desenvolvimento de software.</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

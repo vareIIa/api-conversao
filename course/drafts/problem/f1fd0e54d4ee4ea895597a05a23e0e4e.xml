@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Como a prototipagem pode ajudar a identificar problemas de usabilidade antes da implementação de um sistema? Orientação: Revise a seção sobre prototipagem e pense em como um protótipo interativo permite testar a navegação e o design do sistema com antecedência. Explique como isso possibilita identificar áreas confusas ou melhorias necessárias para garantir uma experiência de usuário fluida, reduzindo retrabalho e facilitando ajustes antes da implementação final.</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

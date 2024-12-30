@@ -1,0 +1,13 @@
+<problem display_name="Vamos exercitar" markdown="O diagrama de classes é um dos artefatos UML mais importantes para representar a estrutura estática de um sistema. Ele detalha as classes, atributos, métodos e os relacionamentos entre elas. Escolha a alternativa que melhor descreve o conteúdo de uma boa documentação de um diagrama de classes.">
+        <multiplechoiceresponse>
+            <p>Questão 3</p>
+            <label>O diagrama de classes é um dos artefatos UML mais importantes para representar a estrutura estática de um sistema. Ele detalha as classes, atributos, métodos e os relacionamentos entre elas. Escolha a alternativa que melhor descreve o conteúdo de uma boa documentação de um diagrama de classes.</label>
+            <description></description>
+            <choicegroup>
+                <choice correct="false">a) Identificação dos atores do sistema e suas interações com os casos de uso.</choice>
+            <choice correct="false">b) Descrição das mensagens trocadas entre objetos e a ordem em que ocorrem.</choice>
+            <choice correct="true">c) Representação das classes do sistema, com seus atributos, métodos e relacionamentos.</choice>
+            <choice correct="false">d) Descrição dos processos executados pelo sistema, com decisões e condições de transição.</choice>
+        </choicegroup>
+        </multiplechoiceresponse>
+    </problem>

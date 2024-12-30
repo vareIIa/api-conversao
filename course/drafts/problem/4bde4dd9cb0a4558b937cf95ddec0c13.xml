@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Explique como o uso de ferramentas como o Figma pode melhorar a comunicação entre designers e desenvolvedores durante o desenvolvimento de um aplicativo. Orientação: Revise o conteúdo sobre Figma e sua capacidade de criar protótipos interativos. Descreva como a colaboração em tempo real e a possibilidade de compartilhar protótipos navegáveis permitem que designers e desenvolvedores alinhem expectativas e resolvam dúvidas rapidamente, facilitando uma comunicação mais clara e integrada.</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

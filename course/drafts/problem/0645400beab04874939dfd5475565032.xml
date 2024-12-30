@@ -1,0 +1,9 @@
+<problem display_name="Vamos exercitar" markdown="texto_exercicio">
+        <stringresponse answer="ola" type="ci">
+            <p>Quais são as principais informações que devem ser incluídas na documentação de um diagrama de casos de uso? Orientação: Identifique os elementos essenciais de um diagrama de casos de uso. Liste as informações que devem ser documentadas, como a descrição do caso de uso, os atores envolvidos, as pré-condições, o fluxo principal e os fluxos alternativos. Explique como cada uma dessas informações ajuda a entender melhor as funcionalidades e interações do sistema.</p>
+            <label>Insira sua resposta aqui</label>
+            <description>resposta:</description>
+            <additional_answer answer="Ola"/>
+            <textline size="20"/>
+        </stringresponse>
+    </problem>

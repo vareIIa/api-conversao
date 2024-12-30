@@ -1,0 +1,13 @@
+<problem display_name="Vamos exercitar" markdown="A modelagem de software desempenha um papel essencial no desenvolvimento de sistemas ao permitir a criação de representações visuais que facilitam o planejamento, a comunicação e a documentação. A UML (Unified Modeling Language) é uma linguagem padrão que oferece diagramas variados para representar diferentes aspectos do sistema. Com base no capítulo estudado, escolha a alternativa que melhor define os benefícios da modelagem de software utilizando a UML.">
+        <multiplechoiceresponse>
+            <p>Questão 3</p>
+            <label>A modelagem de software desempenha um papel essencial no desenvolvimento de sistemas ao permitir a criação de representações visuais que facilitam o planejamento, a comunicação e a documentação. A UML (Unified Modeling Language) é uma linguagem padrão que oferece diagramas variados para representar diferentes aspectos do sistema. Com base no capítulo estudado, escolha a alternativa que melhor define os benefícios da modelagem de software utilizando a UML.</label>
+            <description></description>
+            <choicegroup>
+                <choice correct="false">a) A modelagem substitui a etapa de codificação no desenvolvimento de sistemas, eliminando a necessidade de testes.</choice>
+            <choice correct="true">b) A modelagem permite visualizar, especificar e documentar um sistema de forma clara e compreensível, reduzindo riscos e alinhando expectativas.</choice>
+            <choice correct="false">c) A modelagem garante que não haja necessidade de manutenção ou ajustes no sistema após a implementação.</choice>
+            <choice correct="false">d) A modelagem é utilizada exclusivamente para criar sistemas simples, pois não se aplica a projetos complexos.</choice>
+        </choicegroup>
+        </multiplechoiceresponse>
+    </problem>

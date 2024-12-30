@@ -1,0 +1,13 @@
+<problem display_name="Vamos exercitar" markdown="Os diagramas UML são ferramentas essenciais no desenvolvimento de software, pois permitem representar visualmente diferentes aspectos de um sistema. Entre eles, o diagrama de casos de uso desempenha um papel importante ao identificar como os usuários interagem com o sistema. Assinale a alternativa que melhor descreve a função do diagrama de casos de uso no desenvolvimento de software.">
+        <multiplechoiceresponse>
+            <p>Questão 3</p>
+            <label>Os diagramas UML são ferramentas essenciais no desenvolvimento de software, pois permitem representar visualmente diferentes aspectos de um sistema. Entre eles, o diagrama de casos de uso desempenha um papel importante ao identificar como os usuários interagem com o sistema. Assinale a alternativa que melhor descreve a função do diagrama de casos de uso no desenvolvimento de software.</label>
+            <description></description>
+            <choicegroup>
+                <choice correct="false">a) Representar a interação entre objetos ao longo do tempo, detalhando as mensagens trocadas entre eles.</choice>
+            <choice correct="false">b) Descrever a estrutura estática do sistema, incluindo classes, atributos, métodos e relacionamentos.</choice>
+            <choice correct="false">c) Modelar o fluxo de atividades dentro de um processo, identificando decisões e sequências de ações.</choice>
+            <choice correct="true">d) Mostrar as interações entre os usuários (atores) e o sistema, detalhando as principais funcionalidades oferecidas.</choice>
+        </choicegroup>
+        </multiplechoiceresponse>
+    </problem>
